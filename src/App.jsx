@@ -1,3 +1,4 @@
+import Cards from "./componentes/Cards"
 import "./estilos/estilos_practica.css"
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
      <a href="">nosotros</a>
      <a href="">productos</a>
      <a href="">precio</a></nav> 
+
+     <Cards/>
+     
     </>
   )
 }
